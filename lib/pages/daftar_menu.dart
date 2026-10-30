@@ -89,19 +89,11 @@ class _DaftarMenuState extends State<DaftarMenu> {
                       vertical: 10,
                     ),
 
-                    leading: Container(
-                      width: 48,
-                      height: 48,
-                      decoration: BoxDecoration(
-                        color: const Color(0xFFFFF0C2),
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      child: Icon(
-                        ikonMenu(menu.nama),
-                        color: const Color(0xFF8A6425),
-                        size: 26,
-                      ),
-                    ),
+                  leading: Icon(
+                    ikonMenu(menu.nama),
+                    color: const Color(0xFF8A6425),
+                    size: 26,
+                  ),
 
                     title: TeksCustom(
                       teks: menu.nama,
